@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David Seleman | About</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav>
@@ -25,15 +25,27 @@
             </section>
             <section class="skills">
                 <h2>Skills</h2>
-                <ul>
-                    <li>Game Development</li>
-                    <li>Graphic Design</li>
-                    <li>Web Development</li>
-                    <li>JavaScript, HTML, CSS</li>
-                    <li>Python, C++, Unity</li>
-                </ul>
+                <div class="skill">
+                    <button class="skill-btn" data-target="skill-1">Game Development</button>
+                    <div id="skill-1" class="skill-detail">
+                        <p>Experienced in creating engaging games using Unity and Unreal Engine. Skilled in C# and C++ programming languages.</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <button class="skill-btn" data-target="skill-2">Graphic Design</button>
+                    <div id="skill-2" class="skill-detail">
+                        <p>Proficient in Adobe Creative Suite (Photoshop, Illustrator) and other design tools. Passionate about creating visually appealing designs.</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <button class="skill-btn" data-target="skill-3">Web Development</button>
+                    <div id="skill-3" class="skill-detail">
+                        <p>Experienced in developing responsive websites using HTML, CSS, and JavaScript. Familiar with frameworks like React and Vue.js.</p>
+                    </div>
+                </div>
             </section>
         </div>
     </main>
+    <script src="main.js"></script>
 </body>
 </html>
